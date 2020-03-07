@@ -12,39 +12,30 @@ aws ec2 create-subnet --vpc-id ${id_vpc} --cidr-block 10.0.2.0/24
 aws ec2 create-subnet --vpc-id ${id_vpc} --cidr-block 10.0.3.0/24
 aws ec2 create-subnet --vpc-id ${id_vpc} --cidr-block 10.0.4.0/24
 
+# security group
+## sg ssh
+my_ip=`curl https://checkip.amazonaws.com`
+aws ec2 create-security-group --group-name ssh_access --description "Security group for SSH access" --vpc-id ${id_vpc}
+aws ec2 authorize-security-group-ingress --group-id ${id_sg_ssh} --protocol tcp --port 22 --cidr ${my_ip}/32
+aws ec2 authorize-security-group-ingress --group-id ${id_sg_ssh} --protocol tcp --port 0-65535 --source-group ${id_sg_ssh}
+aws ec2 authorize-security-group-ingress --group-id ${id_sg_ssh} --protocol udp --port 0-65535 --source-group ${id_sg_ssh}
+
+
+# internet gateway
+aws ec2 create-internet-gateway
+aws ec2 attach-internet-gateway --vpc-id ${id_vpc} --internet-gateway-id ${id_igw}
+
+## rt_igw
+aws ec2 create-route --route-table-id ${id_rt_igw} --destination-cidr-block 0.0.0.0/0 --gateway-id ${id_igw}
+aws ec2 describe-route-tables --route-table-id ${id_rt_igw}
+aws ec2 associate-route-table  --subnet-id ${id_subnet_0_1_0} --route-table-id ${id_rt_igw}
+aws ec2 associate-route-table  --subnet-id ${id_subnet_0_2_0} --route-table-id ${id_rt_igw}
+
+## public ip launch
+aws ec2 modify-subnet-attribute --subnet-id ${id_subnet_0_1_0} --map-public-ip-on-launch
 
 
 
+# route_table
+aws ec2 create-route-table --vpc-id ${id_vpc}
 
-# memo
-
-# VPC confirm
-aws ec2 describe-vpcs --output text
-aws ec2 describe-vpcs --output table
-aws ec2 describe-vpcs --output text | grep VPCS | awk -v 'OFS=\t' '{print $2,$8}'
-aws ec2 delete-vpc --vpc-id
-
-# Subnet
-aws ec2 describe-subnets --output text | grep SUBNETS | awk -v 'OFS=\t' '{print $3,$6,$12,$13}'
-aws ec2  delete-subnet --subnet-id ${SUBNETID}
-
-# route table
-aws ec2 describe-route-tables
-aws ec2 describe-route-tables --output json | grep RouteTableId
-aws ec2 delete-route-table --route-table-id ${ROUTETABLEID}
-
-# Security Group
-aws ec2 describe-security-groups --output text | grep SECURITY
-
-# Internet gateway
-aws ec2 describe-internet-gateways --output table
-aws ec2 describe-internet-gateways --output json | grep InternetGatewayId
-aws ec2 describe-internet-gateways --output json | grep Id
-
-aws ec2 detach-internet-gateway --internet-gateway-id ${IGWID} --vpc-id ${VPCID}
-aws ec2 delete-internet-gateway --internet-gateway-id ${IGWID}
-
-# EIP
-aws ec2 describe-addresses
-
-# ELB
