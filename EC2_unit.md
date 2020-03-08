@@ -5,7 +5,7 @@ aws ec2 describe-instances
 
 aws ec2 describe-instances | jq '.Reservations[].Instances[] | {InstanceId, Tags}'
 
-#AMI check
+# AMI check
 aws ec2 describe-images --owners self | jq '.Images[] | {Name, ImageId}'
 
-
+aws ec2 describe-volumes

@@ -17,8 +17,7 @@ aws ec2 create-subnet --vpc-id ${id_vpc} --cidr-block 10.0.4.0/24
 my_ip=`curl https://checkip.amazonaws.com`
 aws ec2 create-security-group --group-name ssh_access --description "Security group for SSH access" --vpc-id ${id_vpc}
 aws ec2 authorize-security-group-ingress --group-id ${id_sg_ssh} --protocol tcp --port 22 --cidr ${my_ip}/32
-aws ec2 authorize-security-group-ingress --group-id ${id_sg_ssh} --protocol tcp --port 0-65535 --source-group ${id_sg_ssh}
-aws ec2 authorize-security-group-ingress --group-id ${id_sg_ssh} --protocol udp --port 0-65535 --source-group ${id_sg_ssh}
+aws ec2 authorize-security-group-ingress --group-id ${id_sg_ssh} --protocol all --source-group ${id_sg_ssh}
 
 
 # internet gateway
