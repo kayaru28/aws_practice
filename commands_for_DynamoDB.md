@@ -40,6 +40,6 @@ aws dynamodb query \
     --expression-attribute-values  '{":name":{"S":"Acme Band"}}'
 
              
-
+aws dynamodb delete-table --table-name Music
 
 
