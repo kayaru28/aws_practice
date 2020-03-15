@@ -1,9 +1,11 @@
 ## env
+filename=lambda_index
+
 name_lambda=my_func_python
 runtime_lambda=python3.6
-handler_lambda=lambda_index.handler
-zip_lambda=lambda_code.zip
-code_lambda=lambda_index.py
+handler_lambda=${filename}.handler
+zip_lambda=${filename}.zip
+code_lambda=${filename}.py
 
 ## create
 zip -r ${zip_lambda} ${code_lambda} 
