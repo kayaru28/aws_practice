@@ -16,6 +16,8 @@ aws lambda delete-function --function-name ${name_lambda}
 aws lambda invoke --invocation-type Event --function-name ${name_lambda} --payload '{"key1":" こんにちは", "key2":"今晩は", "key3":"さようなら"}' outputfile.txt
 
 
+## change configure
+aws lambda update-function-configuration --function-name ${name_lambda} --role ${arn_execution_role_lambda}
 
 
 
