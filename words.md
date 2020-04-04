@@ -39,6 +39,15 @@
 * CTAS
 * S3/Glueへのアクセス権限
 
+# AmazonSageMaker
+* ノートブックインスタンスタイプ
+* IAMロール
+* ラベリング／開発／学習／モデル変換／推論
+* gitインテグレーション
+* ライフサイクル設定
+* instance_count
+
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
