@@ -47,6 +47,17 @@
 * ライフサイクル設定
 * instance_count
 
+# StepFunction
+* ASL (Amazon States Language)
+* ステートマシン
+* State
+* Activity
+* InputPath/Parameters/ResultPath/OutputPath
+
+
+
+
+
 
 # other
 * AWS Connector for vCenter
