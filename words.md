@@ -54,6 +54,10 @@
 * Activity
 * InputPath/Parameters/ResultPath/OutputPath
 
+# Transit Gateway
+* Route Domain
+
+
 # Amazon MQ
 * メッセージブローカー
 * Apache ActiveMQ
