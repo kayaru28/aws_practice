@@ -16,6 +16,15 @@
 * マスターノード／コアノード／タスクノード
  https://docs.aws.amazon.com/ja_jp/emr/latest/ManagementGuide/emr-master-core-task-nodes.html
 
+# Direcroty Service
+* Simple AD
+* AD Connector
+* snapshot backup
+* DHCPオプションセット
+* Simple Systems Manager(SSM)
+* Active Directory フェデレーションサービス（ADFS）
+
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
