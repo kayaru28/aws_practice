@@ -54,6 +54,13 @@
 * Activity
 * InputPath/Parameters/ResultPath/OutputPath
 
+# Amazon MQ
+* メッセージブローカー
+* Apache ActiveMQ
+* AMQP/MQTT/OpenWire/STOMP
+* FIFO/once-and-only-once
+* Apache ActiveMQ Advisory Topics/Apache ActiveMQ統計プラグイン
+
 
 
 
