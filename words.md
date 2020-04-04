@@ -32,7 +32,12 @@
 * Amazon Cognito Stream
 * Amazon Cognito Events
 
-
+# Athena
+* Presto (in memory)
+* AWS Glue Data Catalog
+* column base
+* CTAS
+* S3/Glueへのアクセス権限
 
 # other
 * AWS Connector for vCenter
