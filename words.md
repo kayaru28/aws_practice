@@ -24,6 +24,15 @@
 * Simple Systems Manager(SSM)
 * Active Directory フェデレーションサービス（ADFS）
 
+# Cognito
+* User Pools
+* Federated Identities
+* Cognito Sync
+* Amazon Cognito Push Sync
+* Amazon Cognito Stream
+* Amazon Cognito Events
+
+
 
 # other
 * AWS Connector for vCenter
