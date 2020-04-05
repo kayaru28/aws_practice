@@ -26,6 +26,7 @@ Origin Protocol   policy
 
 # S3 
 * Amazon S3 Transfer Acceleration
+* S3 MFA delete
 
 # Service Catalog
 * 製品
