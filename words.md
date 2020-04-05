@@ -9,6 +9,9 @@
 * SNI（Server Name Indication）
 * balancing to on premice servers
 
+# Croud Front
+Origin Protocol   policy
+
 # SQS
 ## FIFOキュー
 * メッセージ重複排除ID
