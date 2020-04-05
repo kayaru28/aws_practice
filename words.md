@@ -2,6 +2,9 @@
 * スポットフリート
 * スポットブロック
 
+# Aurora(RDS)
+* 自動スケールアップ
+
 # S3 
 * Amazon S3 Transfer Acceleration
 
