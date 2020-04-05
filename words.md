@@ -3,6 +3,8 @@
 * スポットブロック
 
 # ELB
+* Proxy Protocol header
+
 ## ALB
 * SNI（Server Name Indication）
 * balancing to on premice servers
