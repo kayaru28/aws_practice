@@ -90,7 +90,9 @@ Origin Protocol   policy
 * FIFO/once-and-only-once
 * Apache ActiveMQ Advisory Topics/Apache ActiveMQ統計プラグイン
 
-
+# Direct Connect
+* Virtual Privte Gateway
+* Customer Gateway
 
 
 
