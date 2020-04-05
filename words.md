@@ -2,6 +2,9 @@
 * スポットフリート
 * スポットブロック
 
+# S3 
+* Amazon S3 Transfer Acceleration
+
 # Service Catalog
 * 製品
 * ポートフォリオ
