@@ -9,6 +9,12 @@
 * SNI（Server Name Indication）
 * balancing to on premice servers
 
+# SQS
+## FIFOキュー
+* メッセージ重複排除ID
+* メッセージグループID
+* シーケンス番号
+
 # RDS
 * クロスリージョンリードレプリカ()
 ## Aurora
