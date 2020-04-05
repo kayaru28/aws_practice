@@ -2,6 +2,11 @@
 * スポットフリート
 * スポットブロック
 
+# ELB
+## ALB
+* SNI（Server Name Indication）
+* balancing to on premice servers
+
 # Aurora(RDS)
 * 自動スケールアップ
 
