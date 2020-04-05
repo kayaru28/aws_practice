@@ -7,8 +7,11 @@
 * SNI（Server Name Indication）
 * balancing to on premice servers
 
-# Aurora(RDS)
+# RDS
+* クロスリージョンリードレプリカ()
+## Aurora
 * 自動スケールアップ
+* インスタンスエンドポイント/クラスターエンドポイント/読み込みエンドポイント
 
 # S3 
 * Amazon S3 Transfer Acceleration
