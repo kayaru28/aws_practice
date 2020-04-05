@@ -19,10 +19,13 @@ Origin Protocol   policy
 * シーケンス番号
 
 # RDS
-* クロスリージョンリードレプリカ()
+* クロスリージョンリードレプリカ
 ## Aurora
 * 自動スケールアップ
 * インスタンスエンドポイント/クラスターエンドポイント/読み込みエンドポイント
+
+# DynamoDB
+* クロスリージョンリードレプリケーション
 
 # S3 
 * Amazon S3 Transfer Acceleration
