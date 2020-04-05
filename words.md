@@ -95,8 +95,8 @@ Origin Protocol   policy
 * Virtual Privte Gateway
 * Customer Gateway
 
-
-
+# CloudTrail
+* グローバルサービスイベント
 
 # other
 * AWS Connector for vCenter
