@@ -83,6 +83,9 @@ Origin Protocol   policy
 # Transit Gateway
 * Route Domain
 
+# IAM
+## IAMロール
+* インスタンスプロファイル
 
 # Amazon MQ
 * メッセージブローカー
