@@ -5,6 +5,11 @@
 # ELB
 * Proxy Protocol header
 
+# Data Pipeline
+* パイプラインコンポーネント
+* インスタンス
+* 試行
+
 ## ALB
 * SNI（Server Name Indication）
 * balancing to on premice servers
