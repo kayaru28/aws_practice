@@ -9,6 +9,7 @@
 * パイプラインコンポーネント
 * インスタンス
 * 試行
+* Task Runner パッケージソフト
 
 ## ALB
 * SNI（Server Name Indication）
