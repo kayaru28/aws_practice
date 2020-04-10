@@ -106,6 +106,7 @@ Origin Protocol   policy
 # Direct Connect
 * Virtual Privte Gateway
 * Customer Gateway
+* クロスネットワーク接続 (別名クロスコネクト)
 
 # CloudTrail
 * グローバルサービスイベント
