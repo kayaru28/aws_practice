@@ -111,6 +111,9 @@ Origin Protocol   policy
 # CloudTrail
 * グローバルサービスイベント
 
+# CLoud Formation
+* DeletionPolicy 属性
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
