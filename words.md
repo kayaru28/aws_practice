@@ -96,6 +96,12 @@ Origin Protocol   policy
 ## IAMロール
 * インスタンスプロファイル
 
+# Organizations
+* 組織単位(OU)
+* 管理用ルート(root)
+* サービス管理ポリシー(SCP)
+
+
 # Amazon MQ
 * メッセージブローカー
 * Apache ActiveMQ
