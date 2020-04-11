@@ -5,6 +5,9 @@
 # ELB
 * Proxy Protocol header
 
+# Auto Scaling
+* AZRebalance
+
 # Data Pipeline
 * パイプラインコンポーネント
 * インスタンス
