@@ -127,6 +127,8 @@ Origin Protocol   policy
 * Preset
 * User metadata
 
+# Amazon Rekognition 
+* RecognizeCelebrities
 
 
 
