@@ -114,6 +114,15 @@ Origin Protocol   policy
 # CLoud Formation
 * DeletionPolicy 属性
 
+# Amazon Elastic Transcoder
+* Pipline
+* Job
+* Preset
+* User metadata
+
+
+
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
