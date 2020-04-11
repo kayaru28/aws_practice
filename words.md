@@ -101,7 +101,7 @@ Origin Protocol   policy
 * 組織単位(OU)
 * 管理用ルート(root)
 * サービス管理ポリシー(SCP)
-
+* AWS generated tags／ユーザ定義タグ有効化
 
 # Amazon MQ
 * メッセージブローカー
