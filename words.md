@@ -26,6 +26,7 @@ Origin Protocol   policy
 
 # RDS
 * クロスリージョンリードレプリカ
+* AWS Database Migration Service
 ## Aurora
 * 自動スケールアップ
 * インスタンスエンドポイント/クラスターエンドポイント/読み込みエンドポイント
