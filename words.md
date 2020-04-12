@@ -1,49 +1,62 @@
-# スポットインスタンス
+# Compute
+## Auto Scaling
+* AZRebalance
+
+## Lambda
+* デッドレターキュー
+
+## スポットインスタンス
 * スポットフリート
 * スポットブロック
 
-# ELB
-* Proxy Protocol header
+## Elastic Beanstalk
+* Swap Enbironment URLs
 
-# Auto Scaling
-* AZRebalance
-
-# Data Pipeline
-* パイプラインコンポーネント
-* インスタンス
-* 試行
-* Task Runner パッケージソフト
-
-## ALB
-* SNI（Server Name Indication）
-* balancing to on premice servers
-
-# Croud Front
-Origin Protocol   policy
-
-# SQS
-## FIFOキュー
-* メッセージ重複排除ID
-* メッセージグループID
-* シーケンス番号
-
-# RDS
-* クロスリージョンリードレプリカ
-* AWS Database Migration Service
-## Aurora
-* 自動スケールアップ
-* インスタンスエンドポイント/クラスターエンドポイント/読み込みエンドポイント
-
-# DynamoDB
-* クロスリージョンリードレプリケーション
-
-# S3 
+# Storage
+## S3 
 * Amazon S3 Transfer Acceleration
 * S3 MFA delete
 * リクエスタ支払いバケット
 * Range HTTP ヘッダー／Range get
 
-# Service Catalog
+# Databases
+## RDS
+* クロスリージョンリードレプリカ
+* AWS Database Migration Service
+### Aurora
+* 自動スケールアップ
+* インスタンスエンドポイント/クラスターエンドポイント/読み込みエンドポイント
+
+## DynamoDB
+* クロスリージョンリードレプリケーション
+
+# Networking & Content Delivery
+
+## ELB
+* Proxy Protocol header
+### ALB
+* SNI（Server Name Indication）
+* balancing to on premice servers
+
+## Croud Front
+Origin Protocol   policy
+
+## Direct Connect
+* Virtual Privte Gateway
+* Customer Gateway
+* クロスネットワーク接続 (別名クロスコネクト)
+
+## Transit Gateway
+* Route Domain
+
+# Management & Governance
+## CloudTrail
+* グローバルサービスイベント
+
+## CLoud Formation
+* DeletionPolicy 属性
+
+## Service Catalog
 * 製品
 * ポートフォリオ
 * 制約
@@ -52,12 +65,34 @@ Origin Protocol   policy
 * アカウント間ポートフォリオ共有
 * ポートフォリオ課金
 
-# EMR
-* インスタンスフリート
-* マスターノード／コアノード／タスクノード
- https://docs.aws.amazon.com/ja_jp/emr/latest/ManagementGuide/emr-master-core-task-nodes.html
+## AWS System Manager
+* AWS System Manager Patch Manager
+* SSMエージェント
+* AWS System Manager メンテナンスウィンドウ
+* AWS System Manager Session Manager
+* AWS System Manager ステートマネージャ
 
-# Direcroty Service
+
+
+# Media Services
+## Amazon Elastic Transcoder
+* Pipline
+* Job
+* Preset
+* User metadata
+
+# Security, Identity & Compliance
+## IAM
+### IAMロール
+* インスタンスプロファイル
+
+## Organizations
+* 組織単位(OU)
+* 管理用ルート(root)
+* サービス管理ポリシー(SCP)
+* AWS generated tags／ユーザ定義タグ有効化
+
+## Direcroty Service
 * Simple AD
 * AD Connector
 * snapshot backup
@@ -65,7 +100,7 @@ Origin Protocol   policy
 * Simple Systems Manager(SSM)
 * Active Directory フェデレーションサービス（ADFS）
 
-# Cognito
+## Cognito
 * User Pools
 * Federated Identities
 * Cognito Sync
@@ -73,14 +108,23 @@ Origin Protocol   policy
 * Amazon Cognito Stream
 * Amazon Cognito Events
 
-# Athena
+# Analytics
+## Athena
 * Presto (in memory)
 * AWS Glue Data Catalog
 * column base
 * CTAS
 * S3/Glueへのアクセス権限
 
-# AmazonSageMaker
+## Amazon Elasticsearch Service
+* Amazon ES ドメイン
+
+## EMR
+* インスタンスフリート
+* マスターノード／コアノード／タスクノード
+
+# Machine Learning
+## AmazonSageMaker
 * ノートブックインスタンスタイプ
 * IAMロール
 * ラベリング／開発／学習／モデル変換／推論
@@ -88,70 +132,37 @@ Origin Protocol   policy
 * ライフサイクル設定
 * instance_count
 
-# StepFunction
+## Amazon Rekognition 
+* RecognizeCelebrities
+
+# Application Integration
+## SQS
+### FIFOキュー
+* メッセージ重複排除ID
+* メッセージグループID
+* シーケンス番号
+
+## StepFunction
 * ASL (Amazon States Language)
 * ステートマシン
 * State
 * Activity
 * InputPath/Parameters/ResultPath/OutputPath
 
-# Transit Gateway
-* Route Domain
-
-# IAM
-## IAMロール
-* インスタンスプロファイル
-
-# Organizations
-* 組織単位(OU)
-* 管理用ルート(root)
-* サービス管理ポリシー(SCP)
-* AWS generated tags／ユーザ定義タグ有効化
-
-# Amazon MQ
+## Amazon MQ
 * メッセージブローカー
 * Apache ActiveMQ
 * AMQP/MQTT/OpenWire/STOMP
 * FIFO/once-and-only-once
 * Apache ActiveMQ Advisory Topics/Apache ActiveMQ統計プラグイン
 
-# Direct Connect
-* Virtual Privte Gateway
-* Customer Gateway
-* クロスネットワーク接続 (別名クロスコネクト)
+## Data Pipeline
+* パイプラインコンポーネント
+* インスタンス
+* 試行
+* Task Runner パッケージソフト
 
-# CloudTrail
-* グローバルサービスイベント
-
-# CLoud Formation
-* DeletionPolicy 属性
-
-# Amazon Elastic Transcoder
-* Pipline
-* Job
-* Preset
-* User metadata
-
-# Amazon Rekognition 
-* RecognizeCelebrities
-
-# Amazon Elasticsearch Service
-* Amazon ES ドメイン
-
-# Elastic Beanstalk
-* Swap Enbironment URLs
-
-# AWS System Manager
-* AWS System Manager Patch Manager
-* SSMエージェント
-* AWS System Manager メンテナンスウィンドウ
-* AWS System Manager Session Manager
-* AWS System Manager ステートマネージャ
-
-# Lambda
-* デッドレターキュー
-
-# other
+## other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
 * Forward Cookies
