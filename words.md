@@ -41,6 +41,7 @@ Origin Protocol   policy
 * Amazon S3 Transfer Acceleration
 * S3 MFA delete
 * リクエスタ支払いバケット
+* Range HTTP ヘッダー／Range get
 
 # Service Catalog
 * 製品
