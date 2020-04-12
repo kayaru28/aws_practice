@@ -147,6 +147,9 @@ Origin Protocol   policy
 * AWS System Manager Session Manager
 * AWS System Manager ステートマネージャ
 
+# Lambda
+* デッドレターキュー
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
