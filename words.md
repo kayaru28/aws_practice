@@ -140,6 +140,13 @@ Origin Protocol   policy
 # Elastic Beanstalk
 * Swap Enbironment URLs
 
+# AWS System Manager
+* AWS System Manager Patch Manager
+* SSMエージェント
+* AWS System Manager メンテナンスウィンドウ
+* AWS System Manager Session Manager
+* AWS System Manager ステートマネージャ
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
