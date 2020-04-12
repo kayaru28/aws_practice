@@ -136,6 +136,9 @@ Origin Protocol   policy
 # Amazon Elasticsearch Service
 * Amazon ES ドメイン
 
+# Elastic Beanstalk
+* Swap Enbironment URLs
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
