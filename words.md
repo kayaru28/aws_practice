@@ -133,7 +133,8 @@ Origin Protocol   policy
 # Amazon Rekognition 
 * RecognizeCelebrities
 
-
+# Amazon Elasticsearch Service
+* Amazon ES ドメイン
 
 # other
 * AWS Connector for vCenter
