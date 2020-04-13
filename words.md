@@ -35,6 +35,7 @@
 
 ## DynamoDB
 * クロスリージョンリードレプリケーション
+* TTL
 
 # Networking & Content Delivery
 
@@ -59,8 +60,10 @@ Origin Protocol   policy
 ## CloudTrail
 * グローバルサービスイベント
 
-## CLoud Formation
+## Cloud Formation
 * DeletionPolicy 属性
+* スタックセット
+* スタックインスタンス
 
 ## Service Catalog
 * 製品
