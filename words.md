@@ -1,4 +1,10 @@
 # Compute
+## EC2
+* ハードウェア占有インスタンス
+* Dedicated Host
+* 自動配置
+* ホストアフィニティ
+
 ## Auto Scaling
 * AZRebalance
 
