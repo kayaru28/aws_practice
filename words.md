@@ -80,8 +80,11 @@ Origin Protocol   policy
 * AWS System Manager メンテナンスウィンドウ
 * AWS System Manager Session Manager
 * AWS System Manager ステートマネージャ
-
-
+* パッチベースライン
+* パッチグループ
+* AWS-ConfigureWindowsUpdte
+* AWS-InstallWindowsUpdates
+* AWS-RunPatchBaseline
 
 # Media Services
 ## Amazon Elastic Transcoder
