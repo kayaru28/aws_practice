@@ -1,22 +1,71 @@
-# スポットインスタンス
+# Compute
+## EC2
+* ハードウェア占有インスタンス
+* Dedicated Host
+* 自動配置
+* ホストアフィニティ
+
+## Auto Scaling
+* AZRebalance
+
+## Lambda
+* デッドレターキュー
+
+## スポットインスタンス
 * スポットフリート
 * スポットブロック
 
-# ELB
-## ALB
-* SNI（Server Name Indication）
-* balancing to on premice servers
+## Elastic Beanstalk
+* Swap Enbironment URLs
 
-# RDS
-* クロスリージョンリードレプリカ()
-## Aurora
+# Storage
+## S3 
+* Amazon S3 Transfer Acceleration
+* S3 MFA delete
+* リクエスタ支払いバケット
+* Range HTTP ヘッダー／Range get
+
+# Databases
+## RDS
+* クロスリージョンリードレプリカ
+* AWS Database Migration Service
+### Aurora
 * 自動スケールアップ
 * インスタンスエンドポイント/クラスターエンドポイント/読み込みエンドポイント
 
-# S3 
-* Amazon S3 Transfer Acceleration
+## DynamoDB
+* クロスリージョンリードレプリケーション
+* TTL
 
-# Service Catalog
+# Networking & Content Delivery
+
+## ELB
+* Proxy Protocol header
+### ALB
+* SNI（Server Name Indication）
+* balancing to on premice servers
+
+## Croud Front
+Origin Protocol   policy
+
+## Direct Connect
+* Virtual Privte Gateway
+* Customer Gateway
+* クロスネットワーク接続 (別名クロスコネクト)
+
+## Transit Gateway
+* Route Domain
+
+# Management & Governance
+## CloudTrail
+* グローバルサービスイベント
+
+## Cloud Formation
+* DeletionPolicy 属性
+* スタックセット
+* スタックインスタンス
+
+## Service Catalog
 * 製品
 * ポートフォリオ
 * 制約
@@ -25,12 +74,45 @@
 * アカウント間ポートフォリオ共有
 * ポートフォリオ課金
 
-# EMR
-* インスタンスフリート
-* マスターノード／コアノード／タスクノード
- https://docs.aws.amazon.com/ja_jp/emr/latest/ManagementGuide/emr-master-core-task-nodes.html
+## AWS System Manager
+* SSMエージェント／SSM APIへのアクセス経路／EC2ロール
+* Change Calendar
+* メンテナンスウィンドウ
+* コンプライアンス
+* インベントリ
+* マネージドインスタンス
+* ハイブリッドアクティベーション
+* セッションマネージャー
+* Run Command／Automation
+* ステートマネージャ
+* パッチマネージャー
+* ディストリビューター
+* パッチベースライン
+* パッチグループ
+* SSM ドキュメント
+  * AWS-ConfigureWindowsUpdte
+  * AWS-InstallWindowsUpdates
+  * AWS-RunPatchBaseline
 
-# Direcroty Service
+# Media Services
+## Amazon Elastic Transcoder
+* Pipline
+* Job
+* Preset
+* User metadata
+
+# Security, Identity & Compliance
+## IAM
+### IAMロール
+* インスタンスプロファイル
+
+## Organizations
+* 組織単位(OU)
+* 管理用ルート(root)
+* サービス管理ポリシー(SCP)
+* AWS generated tags／ユーザ定義タグ有効化
+
+## Direcroty Service
 * Simple AD
 * AD Connector
 * snapshot backup
@@ -38,7 +120,7 @@
 * Simple Systems Manager(SSM)
 * Active Directory フェデレーションサービス（ADFS）
 
-# Cognito
+## Cognito
 * User Pools
 * Federated Identities
 * Cognito Sync
@@ -46,14 +128,23 @@
 * Amazon Cognito Stream
 * Amazon Cognito Events
 
-# Athena
+# Analytics
+## Athena
 * Presto (in memory)
 * AWS Glue Data Catalog
 * column base
 * CTAS
 * S3/Glueへのアクセス権限
 
-# AmazonSageMaker
+## Amazon Elasticsearch Service
+* Amazon ES ドメイン
+
+## EMR
+* インスタンスフリート
+* マスターノード／コアノード／タスクノード
+
+# Machine Learning
+## AmazonSageMaker
 * ノートブックインスタンスタイプ
 * IAMロール
 * ラベリング／開発／学習／モデル変換／推論
@@ -61,30 +152,37 @@
 * ライフサイクル設定
 * instance_count
 
-# StepFunction
+## Amazon Rekognition 
+* RecognizeCelebrities
+
+# Application Integration
+## SQS
+### FIFOキュー
+* メッセージ重複排除ID
+* メッセージグループID
+* シーケンス番号
+
+## StepFunction
 * ASL (Amazon States Language)
 * ステートマシン
 * State
 * Activity
 * InputPath/Parameters/ResultPath/OutputPath
 
-# Transit Gateway
-* Route Domain
-
-
-# Amazon MQ
+## Amazon MQ
 * メッセージブローカー
 * Apache ActiveMQ
 * AMQP/MQTT/OpenWire/STOMP
 * FIFO/once-and-only-once
 * Apache ActiveMQ Advisory Topics/Apache ActiveMQ統計プラグイン
 
+## Data Pipeline
+* パイプラインコンポーネント
+* インスタンス
+* 試行
+* Task Runner パッケージソフト
 
-
-
-
-
-# other
+## other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
 * Forward Cookies
