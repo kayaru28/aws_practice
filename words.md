@@ -75,16 +75,24 @@ Origin Protocol   policy
 * ポートフォリオ課金
 
 ## AWS System Manager
-* AWS System Manager Patch Manager
-* SSMエージェント
-* AWS System Manager メンテナンスウィンドウ
-* AWS System Manager Session Manager
-* AWS System Manager ステートマネージャ
+* SSMエージェント／SSM APIへのアクセス経路／EC2ロール
+* Change Calendar
+* メンテナンスウィンドウ
+* コンプライアンス
+* インベントリ
+* マネージドインスタンス
+* ハイブリッドアクティベーション
+* セッションマネージャー
+* Run Command／Automation
+* ステートマネージャ
+* パッチマネージャー
+* ディストリビューター
 * パッチベースライン
 * パッチグループ
-* AWS-ConfigureWindowsUpdte
-* AWS-InstallWindowsUpdates
-* AWS-RunPatchBaseline
+* SSM ドキュメント
+  * AWS-ConfigureWindowsUpdte
+  * AWS-InstallWindowsUpdates
+  * AWS-RunPatchBaseline
 
 # Media Services
 ## Amazon Elastic Transcoder
