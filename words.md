@@ -188,4 +188,6 @@ Origin Protocol   policy
 * ec2-bundle-instance API
 * Forward Cookies
 
-
+# Cooperation
+* Kinesis Firehause → Redshift,S3,ES
+* S3 event → SNS,SQS(standerd),Lambda
