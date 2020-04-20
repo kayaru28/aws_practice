@@ -9,7 +9,6 @@
 * AZRebalance
 
 ## Lambda
-* デッドレターキュー
 * 実行コンテキストの再利用
 
 ## スポットインスタンス
@@ -162,6 +161,7 @@ Origin Protocol   policy
 * メッセージ重複排除ID
 * メッセージグループID
 * シーケンス番号
+* デッドレターキュー
 
 ## StepFunction
 * ASL (Amazon States Language)
