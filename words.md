@@ -18,6 +18,9 @@
 ## Elastic Beanstalk
 * Swap Enbironment URLs
 
+## ECS
+* タスクネットワーキング／awsvpcネットワークモード
+
 # Storage
 ## S3 
 * Amazon S3 Transfer Acceleration
@@ -190,5 +193,6 @@ Origin Protocol   policy
 * AppStream 2.0
 
 # Cooperation
-* Kinesis Firehause → Redshift,S3,ES
+* Kinesis Firehause → Redshift,S3,Amazon ES
 * S3 event → SNS,SQS(standerd),Lambda
+* AWS DMS → on-premises DB,EC2-base DB,Amazon ES,RDS,Redshift,DynamoDB,S3,Kinesis Data Streams,DocumentDB
