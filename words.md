@@ -187,6 +187,7 @@ Origin Protocol   policy
 * AWS Connector for vCenter
 * ec2-bundle-instance API
 * Forward Cookies
+* AppStream 2.0
 
 # Cooperation
 * Kinesis Firehause → Redshift,S3,ES
