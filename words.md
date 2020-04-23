@@ -191,7 +191,8 @@ Origin Protocol   policy
 * Git ×　(S3,DynamoDB,KMS)
 * Commit Visualizer
 * CodeCommitリポジトリトリガー
-
+## CodeBuild
+* Build project
 
 # other
 * AWS Connector for vCenter
@@ -203,4 +204,5 @@ Origin Protocol   policy
 * Kinesis Firehause → Redshift,S3,Amazon ES
 * S3 event → SNS,SQS(standerd),Lambda
 * AWS DMS → on-premises DB,EC2-base DB,Amazon ES,RDS,Redshift,DynamoDB,S3,Kinesis Data Streams,DocumentDB
-* CodeCommit → SNS,Lambda
+* CodeCommit Ripogitory Trigger → SNS,Lambda
+* CodeBuild ← CodeCommit,S3,GitHub
