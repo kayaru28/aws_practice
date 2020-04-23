@@ -186,7 +186,14 @@ Origin Protocol   policy
 * 試行
 * Task Runner パッケージソフト
 
-## other
+# Developer Tools
+## CodeCommit
+* Git ×　(S3,DynamoDB,KMS)
+* Commit Visualizer
+* CodeCommitリポジトリトリガー
+
+
+# other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
 * Forward Cookies
@@ -196,3 +203,4 @@ Origin Protocol   policy
 * Kinesis Firehause → Redshift,S3,Amazon ES
 * S3 event → SNS,SQS(standerd),Lambda
 * AWS DMS → on-premises DB,EC2-base DB,Amazon ES,RDS,Redshift,DynamoDB,S3,Kinesis Data Streams,DocumentDB
+* CodeCommit → SNS,Lambda
