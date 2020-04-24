@@ -193,6 +193,19 @@ Origin Protocol   policy
 * CodeCommitリポジトリトリガー
 ## CodeBuild
 * Build project
+## CodeDeploy
+* AppSpecファイル(files/hooks)
+* デプロイメント構成（One-at-a-time,Custome,Half-at-a-time,All-at-once）
+* デプロイメントグループ（タグ、AutoScaling）
+* デプロイメントタイプ（In-place/Blue-Green）
+* IAMインスタンスプロファイル
+* リビジョン/ターゲットリビジョン
+* サービスロール
+## CodePipeline
+* アクションタイプ（Source,Build,Test,Deploy,Approbal,Invoke）
+## CodeStar
+* プロジェクトテンプレート
+* CI/CD全体のダッシュボード
 
 # other
 * AWS Connector for vCenter
@@ -206,3 +219,4 @@ Origin Protocol   policy
 * AWS DMS → on-premises DB,EC2-base DB,Amazon ES,RDS,Redshift,DynamoDB,S3,Kinesis Data Streams,DocumentDB
 * CodeCommit Ripogitory Trigger → SNS,Lambda
 * CodeBuild ← CodeCommit,S3,GitHub
+* CodeDeploy ← S3,GitHub
