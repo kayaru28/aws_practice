@@ -64,7 +64,7 @@ Origin Protocol   policy
 * グローバルサービスイベント
 
 ## Cloud Formation
-* DeletionPolicy 属性
+* DeletionPolicy,Retain 属性
 * スタックセット
 * スタックインスタンス
 
@@ -160,6 +160,7 @@ Origin Protocol   policy
 
 # Application Integration
 ## SQS
+* standerd→FIFOは作り直し
 ### FIFOキュー
 * メッセージ重複排除ID
 * メッセージグループID
