@@ -222,3 +222,5 @@ Origin Protocol   policy
 * CodeBuild ← CodeCommit,S3,GitHub
 * CodeDeploy ← S3,GitHub
 * AutoScaling → EC2,ECS,DynamoDB,Aurora(Read Replica)
+* WAF → CloudFront,ALB
+* Shield → EC2,ELB,CloudFront,Route53
