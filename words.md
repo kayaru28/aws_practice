@@ -221,3 +221,4 @@ Origin Protocol   policy
 * CodeCommit Ripogitory Trigger → SNS,Lambda
 * CodeBuild ← CodeCommit,S3,GitHub
 * CodeDeploy ← S3,GitHub
+* AutoScaling → EC2,ECS,DynamoDB,Aurora(Read Replica)
