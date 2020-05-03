@@ -20,6 +20,7 @@
 
 ## ECS
 * タスクネットワーキング／awsvpcネットワークモード
+* EC2起動タイプ／Fargate起動タイプ
 
 ## API gateway
 * エッジ最適化 API エンドポイント
