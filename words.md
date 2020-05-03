@@ -45,6 +45,7 @@
 ## DynamoDB
 * クロスリージョンリードレプリケーション
 * TTL
+* DynamoDB グローバルテーブル
 
 # Networking & Content Delivery
 
