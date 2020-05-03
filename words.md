@@ -226,6 +226,7 @@
 * Kinesis Firehause → Redshift,S3,Amazon ES
 * S3 event → SNS,SQS(standerd),Lambda
 * RDS event → SNS
+* AWS DMS ← on-premises DB,S3
 * AWS DMS → on-premises DB,EC2-base DB,Amazon ES,RDS,Redshift,DynamoDB,S3,Kinesis Data Streams,DocumentDB
 * CodeCommit Ripogitory Trigger → SNS,Lambda
 * CodeBuild ← CodeCommit,S3,GitHub
@@ -233,3 +234,4 @@
 * AutoScaling → EC2,ECS,DynamoDB,Aurora(Read Replica)
 * WAF → CloudFront,ALB
 * Shield → EC2,ELB,CloudFront,Route53
+* snowball ←→ S3
