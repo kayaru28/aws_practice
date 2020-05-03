@@ -21,6 +21,11 @@
 ## ECS
 * タスクネットワーキング／awsvpcネットワークモード
 
+## API gateway
+* エッジ最適化 API エンドポイント
+* リージョン API エンドポイント
+* プライベート API エンドポイント
+
 # Storage
 ## S3 
 * Amazon S3 Transfer Acceleration
