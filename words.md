@@ -54,7 +54,8 @@
 * balancing to on premice servers
 
 ## Croud Front
-Origin Protocol   policy
+* Origin Protocol policy
+* オリジンフェイルーバー
 
 ## Direct Connect
 * Virtual Privte Gateway
