@@ -55,6 +55,7 @@ Origin Protocol   policy
 * Virtual Privte Gateway
 * Customer Gateway
 * クロスネットワーク接続 (別名クロスコネクト)
+* Direct Connect Gateway
 
 ## Transit Gateway
 * Route Domain
