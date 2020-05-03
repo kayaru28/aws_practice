@@ -131,7 +131,7 @@
 * Active Directory フェデレーションサービス（ADFS）
 
 ## Cognito
-* User Pools
+* User Pools (include IdP)
 * Federated Identities
 * Cognito Sync
 * Amazon Cognito Push Sync
