@@ -27,6 +27,13 @@
 * リージョン API エンドポイント
 * プライベート API エンドポイント
 
+## Batch
+* ジョブ／ジョブ定義／ジョブキュー
+* コンピューティング環境
+* コンテナレジストリ
+* ストレージ
+
+
 # Storage
 ## S3 
 * Amazon S3 Transfer Acceleration
@@ -237,3 +244,5 @@
 * WAF → CloudFront,ALB
 * Shield → EC2,ELB,CloudFront,Route53
 * snowball ←→ S3
+* Batch ←→ S3,EFS
+* Batch ← Lambda,CloudWtch Events
