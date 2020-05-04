@@ -71,6 +71,7 @@
 # Management & Governance
 ## CloudTrail
 * グローバルサービスイベント
+* 整合性の検証
 
 ## Cloud Formation
 * DeletionPolicy,Retain 属性
