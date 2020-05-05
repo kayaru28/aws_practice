@@ -159,6 +159,14 @@
 * Amazon Cognito Push Sync
 * Amazon Cognito Stream
 * Amazon Cognito Events
+## SSO
+* Organizaionすべての機能を有効化
+* SSO有効化
+* 認証情報のディレクトリを選択
+* user/groupへの複数コンソールSSOアクセス付与
+
+
+
 ## WAF [Firewall]
 * ウェブACL
   * リソースタイプ
