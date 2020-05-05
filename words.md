@@ -145,6 +145,8 @@
 * 管理用ルート(root)
 * サービス管理ポリシー(SCP)
 * AWS generated tags／ユーザ定義タグ有効化
+* タグポリシー
+
 ## Direcroty Service
 * Simple AD
 * snapshot backup
