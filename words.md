@@ -134,11 +134,11 @@
 
 ## Direcroty Service
 * Simple AD
-* AD Connector
 * snapshot backup
 * DHCPオプションセット
 * Simple Systems Manager(SSM)
 * Active Directory フェデレーションサービス（ADFS）
+* AD Connector（によるフェデレーション）
 
 ## Cognito
 * User Pools (include IdP)
