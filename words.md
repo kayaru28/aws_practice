@@ -22,16 +22,12 @@
 * タスクネットワーキング／awsvpcネットワークモード
 * EC2起動タイプ／Fargate起動タイプ
 
-## API gateway
-* エッジ最適化 API エンドポイント
-* リージョン API エンドポイント
-* プライベート API エンドポイント
-
 ## Batch
 * ジョブ／ジョブ定義／ジョブキュー
 * コンピューティング環境
 * コンテナレジストリ
 * ストレージ
+
 
 
 # Storage
@@ -43,6 +39,8 @@
 * S3 MFA delete
 * リクエスタ支払いバケット
 * Range HTTP ヘッダー／Range get
+
+
 
 # Databases
 ## RDS
@@ -56,6 +54,8 @@
 * クロスリージョンリードレプリケーション
 * TTL
 * DynamoDB グローバルテーブル
+
+
 
 # Networking & Content Delivery
 
@@ -78,6 +78,13 @@
 ## Transit Gateway
 * Route Domain
 
+## API gateway
+* エッジ最適化 API エンドポイント
+* リージョン API エンドポイント
+* プライベート API エンドポイント
+
+
+
 # Management & Governance
 ## CloudTrail
 * グローバルサービスイベント
@@ -87,6 +94,7 @@
 * DeletionPolicy,Retain 属性
 * スタックセット
 * スタックインスタンス
+* テンプレートURL
 
 ## Service Catalog
 * 製品
@@ -117,12 +125,16 @@
   * AWS-InstallWindowsUpdates
   * AWS-RunPatchBaseline
 
+
+
 # Media Services
 ## Amazon Elastic Transcoder
 * Pipline
 * Job
 * Preset
 * User metadata
+
+
 
 # Security, Identity & Compliance
 ## IAM
@@ -161,6 +173,8 @@
 * Shield アドバンスド 正常性ベースの検出
 * アクティブ化→リソース指定→ルールの追加（ウェブACL／レートベース）
 
+
+
 # Analytics
 ## Athena
 * Presto (in memory)
@@ -175,6 +189,8 @@
 * インスタンスフリート
 * マスターノード／コアノード／タスクノード
 
+
+
 # Machine Learning
 ## AmazonSageMaker
 * ノートブックインスタンスタイプ
@@ -186,6 +202,8 @@
 
 ## Amazon Rekognition 
 * RecognizeCelebrities
+
+
 
 # Application Integration
 ## SQS
@@ -216,6 +234,8 @@
 * 試行
 * Task Runner パッケージソフト
 
+
+
 # Developer Tools
 ## CodeCommit
 * Git ×　(S3,DynamoDB,KMS)
@@ -237,11 +257,15 @@
 * プロジェクトテンプレート
 * CI/CD全体のダッシュボード
 
+
+
 # other
 * AWS Connector for vCenter
 * ec2-bundle-instance API
 * Forward Cookies
 * AppStream 2.0
+
+
 
 # Cooperation
 * Kinesis Firehause → Redshift,S3,Amazon ES
