@@ -128,13 +128,11 @@
 ## IAM
 ### IAMロール
 * インスタンスプロファイル
-
 ## Organizations
 * 組織単位(OU)
 * 管理用ルート(root)
 * サービス管理ポリシー(SCP)
 * AWS generated tags／ユーザ定義タグ有効化
-
 ## Direcroty Service
 * Simple AD
 * snapshot backup
@@ -142,7 +140,6 @@
 * Simple Systems Manager(SSM)
 * Active Directory フェデレーションサービス（ADFS）
 * AD Connector（によるフェデレーション）
-
 ## Cognito
 * User Pools (include IdP)
 * Federated Identities
@@ -150,6 +147,19 @@
 * Amazon Cognito Push Sync
 * Amazon Cognito Stream
 * Amazon Cognito Events
+## WAF [Firewall]
+* ウェブACL
+  * リソースタイプ
+  * 文字列一致ルール
+   * ルール
+   * ルールグループ
+   * AWS マネージドルール
+## Shield [DDos]
+* AWS Shield Standard/Advanced
+* ネットワーク ACLをAWS境界に昇格、数TBのトラフィックを処理
+* DDoS response team (DRT)
+* Shield アドバンスド 正常性ベースの検出
+* アクティブ化→リソース指定→ルールの追加（ウェブACL／レートベース）
 
 # Analytics
 ## Athena
@@ -161,7 +171,6 @@
 
 ## Amazon Elasticsearch Service
 * Amazon ES ドメイン
-
 ## EMR
 * インスタンスフリート
 * マスターノード／コアノード／タスクノード
@@ -244,8 +253,8 @@
 * CodeBuild ← CodeCommit,S3,GitHub
 * CodeDeploy ← S3,GitHub
 * AutoScaling → EC2,ECS,DynamoDB,Aurora(Read Replica)
-* WAF → CloudFront,ALB
-* Shield → EC2,ELB,CloudFront,Route53
+* WAF → CloudFront,ALB,API Gateway
+* Shield → EC2,ELB,CloudFront,Route53,AWS Global Accelerator
 * snowball ←→ S3
 * Batch ←→ S3,EFS
 * Batch ← Lambda,CloudWtch Events
