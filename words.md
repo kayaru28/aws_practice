@@ -35,6 +35,9 @@
 
 
 # Storage
+## EBS
+*  EBS– 最適化インスタンス
+
 ## S3 
 * Amazon S3 Transfer Acceleration
 * S3 MFA delete
