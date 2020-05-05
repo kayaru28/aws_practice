@@ -257,6 +257,11 @@
 * プロジェクトテンプレート
 * CI/CD全体のダッシュボード
 
+## X-Ray
+* インターセプター（コードに追加して受信 HTTP リクエストをトレース）
+* クライアントハンドラー（他のAWSサービスの呼び出しに使用するAWS SDKクライアントを計測）
+* An HTTP クライアント（別の内部・外部 HTTP ウェブサービス呼出を計測）
+* X-Rayデーモン
 
 
 # other
@@ -282,3 +287,4 @@
 * snowball ←→ S3
 * Batch ←→ S3,EFS
 * Batch ← Lambda,CloudWtch Events
+* X-Ray - Lambda,API,ELB,Elastic Beanstalk,SNS,SQS
